@@ -3,7 +3,7 @@ const km = parseInt(prompt ("Quanti chilometri devi percorrere?"));
 const scontoUnder = 20;
 const scontoOver = 40;
 const prezzoPerKm = 0.21;
-let prezzoBase = km * prezzoPerKm;
+const prezzoBase = km * prezzoPerKm;
 let prezzoScontato;
 if (eta < 18)
 {
